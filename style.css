@@ -1,0 +1,97 @@
+body{background-color: #99ccff; 
+    color: #00004d; 
+    font-family: Georgia, "Times New Roman", serif;
+}
+header{text-align: center;
+    color: #00004d;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h2{background-color: #d5ebd3; 
+    color: #00004d; 
+    font-family: Georgia, "Times New Roman", serif; 
+    padding-left: 30px;
+}
+p{font-size: .90em;
+}
+ul{ font-weight: bold;
+}
+nav{font-weight: bold; 
+    font-size: 1.5em;
+}
+main h3{font-weight: bold;
+	 letter-spacing: 0.1em;
+    width: 600px;
+    margin-left: 10px;}
+#e{float: left;}
+main p{font-weight: bold;
+	 letter-spacing: 0.1em;
+    float: none;
+    width: 600px;
+    margin-left: 10px;}
+main ul{font-weight: bold;
+	 letter-spacing: 0.1em;
+    margin-left: 10px;}
+#d{font-weight: bold;
+	 letter-spacing: 0.1em;
+    width: 450px;
+    margin-left: 10px;}
+#c{font-weight: bold;
+	 letter-spacing: 0.1em;
+    margin-right: 10px;
+}
+#b{font-weight: bold;
+	 letter-spacing: 0.1em;
+    margin-right: 10px;
+}
+aside {float: right;
+	 width: 450px;
+    box-sizing: border-box;
+    border: 5px solid #0000ff;
+}
+footer{font-size: .9em; 
+    font-style: italic; 
+    border-top: thick solid  #0000ff; 
+    padding-top: 10px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+footer nav ul{font-weight: bold;
+	 letter-spacing: 0.1em;
+    float: right;
+    width: 400px;
+    margin-right: 10px;
+    font-size: .9em;
+	  }
+footer h3{font-weight: bold;
+	 letter-spacing: 0.1em;
+    float: none;
+    width: 300px;
+    margin-left: 10px;
+    font-size: .9em;
+}
+footer ul{font-weight: bold;
+	 letter-spacing: 0.1em;
+    float: none;
+    width: 300px;
+    margin-left: 10px;
+    font-size: .9em;
+}
+@media only screen and (max-width: 1024px){
+    main{margin: 0px;}
+    body{margin: 0px;}
+    nav{float: none; width: auto;}
+    aside{float: none; width: auto;}
+    nav li{display: inline-block; padding: 0.5em;}
+    nav ul{text-align: center;}
+    h1, h2,h3{font-size: 120%;}
+    p{font-size: 90%;}
+    header{object-fit: cover;  
+}
+}
+@media only screen and (max-width: 768px){
+    h1, h2, h3{font-size: 100%;}
+    p{font-size: 80%;}
+    nav, nav ul, nav li{padding: 0px;}
+    header{object-fit: cover;  
+}
+}
